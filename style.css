@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------background */
+.container-fluid{
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    height:auto;
+}
+
+.row{
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    
+}
+
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family: 'Indie Flower', cursive;
+    color: #e4eff7;
+}
+.header p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color: #e4eff7;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: #d0e5f5;
+}
+.main {
+    background-image: url(./img/fr.png);
+    background-size: cover;  
+}
+
+/* --------------------------------input section */
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #16a864;
+    color: ghostwhite;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #121212;
+    font-weight: bold;
+    color: #fff838;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* -------------------------------display */
+.display {
+    text-align: center;
+    color: #111312;
+    font-weight: bold;
+
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: transparent;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
